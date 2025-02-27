@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Space Grotesk", serif;
+  /* max-width: 100%; */
+  
 }
+
 
 .header {
   height: 100vh;
@@ -84,7 +87,7 @@ li button {
   color: #fff;
 }
 
-.hero-image {
+.hero-image, .propsal_image {
   grid-column: 8 / 14;
   /* background-color: aqua; */
 }
@@ -128,7 +131,7 @@ li button {
   gap: 40px; /* Gap between grid items */
   padding: 0 100px;
   margin-top: 40px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .card{
@@ -199,3 +202,66 @@ li button {
   #color-white{
     color: #fff;
   }
+
+.proposal {
+  margin-top: 48px;
+  padding: 0 100px;
+  height: 347px;
+  
+}
+
+.proposal_container {
+  
+  background-color: #f3f3f3;
+  border-radius: 45px;
+  padding:60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  height: 347px;
+}
+
+.proposal_text {
+  /* background-color: aqua; */
+  width: 50%;
+}
+
+.proposal_text h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.proposal_text p {
+  margin: 35px 0;
+  font-size: 18px;
+ 
+  
+}
+
+.proposal_text button {
+  padding: 20px 35px;
+  font-size: 20px;
+  border-radius: 14px;
+  outline: none;
+  border: none;
+  background-color: #191a23;
+  color: #fff;
+}
+
+
+.propsal_image {
+  /* background-color: brown; */
+  align-items: center;
+  text-align: center;
+  margin-top: -84px;
+ margin-right: -100px;
+}
+
+.propsal_image img{
+  align-items: center;
+  text-align: center;
+  width: 494px;
+  height: 394px;
+}
+
