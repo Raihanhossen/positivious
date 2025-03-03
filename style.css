@@ -337,8 +337,8 @@ li button {
 
 .working_process .bottom_container{
   padding: 0 100px;
-  margin-top: 200px;
-  border: 2px solid red;
+  margin-top: 100px;
+  /* border: 2px solid red; */
 }
 
 .process1{
@@ -383,3 +383,54 @@ li button {
   height: 159px;
 }
 
+.team {
+  margin-top: 100px;
+  padding: 0 100px;
+  border: 2px solid red;
+}
+
+.team_container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 40px;
+}
+
+.team_container .member{
+  border: 1px solid black;
+  padding: 40px 35px;
+  border-radius: 45px;
+  box-shadow: 0 5px 0 #191a23;
+}
+
+.member .upper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.member .lower {
+  margin-top: 28px;
+}
+
+.member .lower p {
+  font-size: 16px;
+}
+
+.designation {
+  align-self: flex-end;
+}
+
+.member .name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.member .position {
+  font-size: 16px;
+}
+
+.linkedin_icon {
+  margin-left: -30px;
+}
